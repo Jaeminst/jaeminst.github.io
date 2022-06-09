@@ -102,14 +102,6 @@ content:
   - title: Opensource # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: AWS-Configure-Register-Script
-        link: https://github.com/Jaeminst/AWS-Configure-Register-Script
-        quote: >
-          AWS 자격증명과 프로필관리를 한 번에!
-        description: | # this will include new lines to allow paragraphs
-          * 간편하게 프로필과 리전을 설정할 수 있다.
-          * 프로필 생성과 여러가지 기능을 추가할 예정입니다.
 
       - layout: left
         title: 개인 블로그
@@ -119,6 +111,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 여기에 블로깅 내용들
           * 요약하면 된다요~!
+          
+      - layout: left
+        title: AWS-Configure-Register-Script
+        link: https://github.com/Jaeminst/AWS-Configure-Register-Script
+        quote: >
+          AWS 자격증명과 프로필관리를 한 번에!
+        description: | # this will include new lines to allow paragraphs
+          * AWS 관련 CDK를 사용할 때, 자격증명을 편하게 해줍니다.
+          * 간편하게 프로필과 리전을 설정할 수 있다.
+          * 프로필 생성과 여러가지 기능을 추가할 예정입니다.
 
   - title: A Little More About Me
     layout: text
