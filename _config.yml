@@ -57,20 +57,48 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/Jaeminst
+        title: HTTP 프로토콜을 이해하고 API 설계 방법 학습하여 웹 서비스 작성
+        link: github.com/Jaeminst/devops-01-P1-TeamG
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          - title:  Jaeminst/devops-01-P1-TeamG
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          HTTP 프로토콜을 이해하고 API 설계 방법 학습하여 웹 서비스 작성
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          * 첫 프로젝트
+
+      - layout: top-middle
+        title: AWS ECS, Docker 기반으로 클라우드에 애플리케이션 배포 실습
+        link: velog.io/@jm1225/AWS-ECS-CICD-pjt
+        # link_text: Project Website
+        additional_links:
+          - title:  Jaeminst/devops-01-P1-TeamG
+        quote: >
+          AWS ECS, Docker 기반으로 클라우드에 애플리케이션 배포 실습
+        description: | # this will include new lines to allow paragraphs
+          * 두 번째 프로젝트
+
+      - layout: top-middle
+        title: Serverless 기반의 마이크로 서비스 아키텍처 작성 실습
+        link: velog.io/@jm1225/AWS-MSA-pjt
+        # link_text: Project Website
+        additional_links:
+          - title:  Jaeminst/devops-01-P1-TeamG
+        quote: >
+          Serverless 기반의 마이크로 서비스 아키텍처 작성 실습
+        description: | # this will include new lines to allow paragraphs
+          * 세 번째 프로젝트
+
+      - layout: top-middle
+        title: 파이널 프로젝트 경험을 작성해주세요.
+        link: https://velog.io/@jm1225/%ED%85%8C%EB%9D%BC%ED%8F%BC%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-EC2%EC%97%90-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EC%A0%84%EB%8B%AC%ED%95%98%EA%B8%B0
+        link_text: 테라폼으로 만드는 EC2에 환경변수 안전하게 전달하기
+        additional_links:
+          - title:  Jaeminst/devops-01-P1-TeamG
+        quote: >
+          파이널 프로젝트 경험을 작성해주세요.
+        description: | # this will include new lines to allow paragraphs
+          * 파이널 프로젝트
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,6 +127,16 @@ content:
           * 여기에 배운 내용들
           * 쓰면 된다요~!
 
+      - layout: left
+        title: 울산과학대학
+        caption: 2010.03 ~ 2012.02
+        sub_title: 기계공학 전문학사
+        quote: >
+          설계 전공, 추가활동 사항
+        description: | # this will include new lines to allow paragraphs
+          * 2011.06 ~ 2011.12 / 성진지오텍 기술교육원 수료, 담수 플랜트 설계
+          * 2011.09 ~ 2011.12 / 울산천사들의합창 운영진, 자원봉사 및 기부
+
   - title: Opensource # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -109,9 +147,9 @@ content:
         quote: >
           개인 기술 블로그
         description: | # this will include new lines to allow paragraphs
-          * 여기에 블로깅 내용들
-          * 요약하면 된다요~!
-          
+          * 트러블슈팅, 습득기술 정리, 회고록 등을 공유하기 위한 블로그
+          * 부트캠프 시작과 함께 블로그를 개설하여 꾸준히 블로깅
+
       - layout: left
         title: AWS-Configure-Register-Script
         link: https://github.com/Jaeminst/AWS-Configure-Register-Script
