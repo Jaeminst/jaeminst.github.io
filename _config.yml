@@ -126,6 +126,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 여기에 배운 내용들
           * 쓰면 된다요~!
+          * [[수강생 인터뷰] 비전공자에서 개발자로 커리어 전환을 꿈꾸는 이재민님 인터뷰](https://velog.io/@jm1225/%EC%88%98%EA%B0%95%EC%83%9D-%EC%9D%B8%ED%84%B0%EB%B7%B0-%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%97%90%EC%84%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%BB%A4%EB%A6%AC%EC%96%B4-%EC%A0%84%ED%99%98%EC%9D%84-%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%9D%B4%EC%9E%AC%EB%AF%BC%EB%8B%98-%EC%9D%B8%ED%84%B0%EB%B7%B0)
 
       - layout: left
         title: 울산과학대학
@@ -163,11 +164,9 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      보안 및 네트워크에 대한 관심과 함께 다른 관심과 취미는 다음과 같습니다.
+      - 리액트 관련 학습
+      - 드라마 시청
 
       Look at this beautiful night on the han river  
       ![Han River](images/Ttukseom-Island.jpg "Han River")
