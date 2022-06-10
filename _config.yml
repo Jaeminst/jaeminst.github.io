@@ -128,6 +128,21 @@ content:
   #         * 여기에 내용을 리스트
   #         * 하면 된다요~!
 
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        name: Backend
+        description: | # this will include new lines to allow paragraphs
+          * NodeJS
+      - layout: left
+        name: DevOps
+        description: | # this will include new lines to allow paragraphs
+          * Terraform
+          * MySQL, MongoDB
+          * AWS Pipeline
+          * Linux Ubuntu
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
