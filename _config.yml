@@ -132,11 +132,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        name: Backend
+        title: Backend
         description: | # this will include new lines to allow paragraphs
           * NodeJS
       - layout: left
-        name: DevOps
+        title: DevOps
         description: | # this will include new lines to allow paragraphs
           * Terraform
           * MySQL, MongoDB
