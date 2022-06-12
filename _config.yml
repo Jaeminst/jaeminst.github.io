@@ -76,47 +76,6 @@ content:
   #         * 여기에 내용을 리스트
   #         * 하면 된다요~!
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 코드스테이츠 부트캠프
-        caption: 2022.02 ~ 2022.06
-        sub_title: DevOps 1기
-        quote: >
-          클라우드 서비스 운영과 개발을 한번에! DevOps 부트캠프
-
-        description: | # this will include new lines to allow paragraphs
-          * [[수강생 인터뷰] 비전공자에서 개발자로 커리어 전환을 꿈꾸는 이재민님 인터뷰](https://velog.io/@jm1225/수강생-인터뷰-비전공자에서-개발자로-커리어-전환을-꿈꾸는-이재민님-인터뷰)
-          * DevOps에 대한 명확한 정의를 이해
-          * NodeJS 및 개발 환경 구축
-          * 리눅스 운영체제
-          * 웹서비스 개발 기초지식
-          * Git과 버전관리 시스템
-          * Web Apllication Server
-          * 네트워크 기초
-          * Amazon Web Service
-          * Docker
-          * YAML
-          * 지속적 통합
-          * 배포 자동화
-          * 마이크로서비스
-          * 마이크로서비스 작성
-          * Infra as Code
-          * 컨테이너 오케스트레이션
-          * 서비스 모니터링
-          * 성능 테스트
-
-      - layout: left
-        title: 울산과학대학
-        caption: 2010.03 ~ 2012.02
-        sub_title: 기계공학 전문학사
-        quote: >
-          설계 전공, 추가활동 사항
-        description: | # this will include new lines to allow paragraphs
-          * 2011.06 ~ 2011.12 / 성진지오텍 기술교육원 수료, 담수 플랜트 설계
-          * 2011.09 ~ 2011.12 / 울산천사들의합창 운영진, 자원봉사 및 기부
-
   - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -240,6 +199,47 @@ content:
           * AWS 관련 CDK를 사용할 때, 자격증명을 편하게 해줍니다.
           * 간편하게 프로필과 리전을 설정할 수 있습니다.
           * 프로필 생성과 여러가지 기능을 추가할 예정입니다.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 코드스테이츠 부트캠프
+        caption: 2022.02 ~ 2022.06
+        sub_title: DevOps 1기
+        quote: >
+          클라우드 서비스 운영과 개발을 한번에! DevOps 부트캠프
+
+        description: | # this will include new lines to allow paragraphs
+          * [[수강생 인터뷰] 비전공자에서 개발자로 커리어 전환을 꿈꾸는 이재민님 인터뷰](https://velog.io/@jm1225/수강생-인터뷰-비전공자에서-개발자로-커리어-전환을-꿈꾸는-이재민님-인터뷰)
+          * DevOps에 대한 명확한 정의를 이해
+          * NodeJS 및 개발 환경 구축
+          * 리눅스 운영체제
+          * 웹서비스 개발 기초지식
+          * Git과 버전관리 시스템
+          * Web Apllication Server
+          * 네트워크 기초
+          * Amazon Web Service
+          * Docker
+          * YAML
+          * 지속적 통합
+          * 배포 자동화
+          * 마이크로서비스
+          * 마이크로서비스 작성
+          * Infra as Code
+          * 컨테이너 오케스트레이션
+          * 서비스 모니터링
+          * 성능 테스트
+
+      - layout: left
+        title: 울산과학대학
+        caption: 2010.03 ~ 2012.02
+        sub_title: 기계공학 전문학사
+        quote: >
+          설계 전공, 추가활동 사항
+        description: | # this will include new lines to allow paragraphs
+          * 2011.06 ~ 2011.12 / 성진지오텍 기술교육원 수료, 담수 플랜트 설계
+          * 2011.09 ~ 2011.12 / 울산천사들의합창 운영진, 자원봉사 및 기부
 
   - title: A Little More About Me
     layout: text
