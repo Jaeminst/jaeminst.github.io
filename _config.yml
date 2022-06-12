@@ -54,16 +54,18 @@ about_content: | # this will include new lines to allow paragraphs
 
   기계공학 전문학사를 졸업 후, 수배전반과 Busduct/Busway 구조설계와 수배전반 고저압 전기설계를 했었습니다.
 
-  큰 규모의 프로젝트를 끝내고 나서 찾아온 공허함을 채우고싶어서 취미로 프로그램을 만들어 보았습니다.
+  회사업무를 AutoCAD로 하면서 Lisp을 자연스럽게 접하게 되었고 많은 부분을 자동화 하였습니다.
 
-  그러면서, 제가 좋아하는 일을 하면서 지속적으로 발전할 목표를 찾았습니다.
+  큰 규모의 프로젝트를 끝내고 나서 찾아온 공허함을 채우고자 취미로 프로그램을 만들었습니다.
+
+  그러면서, 제가 좋아하는 일을 하면서 지속적으로 발전하는 제 2의 인생을 꿈꾸고 있습니다.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: HTTP 프로토콜을 이해하고 API 설계 방법 학습하여 웹 서비스 작성
+      - layout: left
+        title: ONE SIZE 쇼핑몰
         link: velog.io/@jm1225/G-Team-Project
         # link_text: Project Website
         additional_links:
@@ -73,10 +75,12 @@ content:
         quote: >
           HTTP 프로토콜을 이해하고 API 설계 방법 학습하여 웹 서비스 작성
         description: | # this will include new lines to allow paragraphs
-          * 첫 프로젝트
+          * 프로젝트를 시작하며 우리가 어떤 서비스를 하고싶은지와 어떻게 백엔드를 구축할지를 논의
+          * 화이트보드에 ERD를 작성한다음 DB의 구조를 정하고, fastify를 이용해 서버앱 코딩
+          * 코드를 하나씩 써내려가면서 동작 원리가 궁금하여 어디서부터 가져오고 보내주고 코드들의 구조를 파악
 
-      - layout: top-middle
-        title: AWS ECS, Docker 기반으로 클라우드에 애플리케이션 배포 실습
+      - layout: left
+        title: AWS ECS CI/CD
         link: velog.io/@jm1225/AWS-ECS-CICD-pjt
         # link_text: Project Website
         additional_links:
@@ -86,23 +90,40 @@ content:
         quote: >
           AWS ECS, Docker 기반으로 클라우드에 애플리케이션 배포 실습
         description: | # this will include new lines to allow paragraphs
-          * 두 번째 프로젝트
+          * 아키텍처 기준으로 CI/CD를 구현하고 DNS로 Frontend와 Backend를 서비스하는 프로젝트
+          * 프로젝트 초반에 팀원의 Laptop으로 협업 후 주말에 백엔드 API 서버 코딩을 진행
+          * 진행 하면서, ssm 관련 문제를 만났는데 프로젝트 기간에 해결할 수 없었습니다.
+          * 그러나, 프로젝트 기간이 끝난 후 ssm trouble-shooting을 추가 포스팅 하였습니다.
 
-      - layout: top-middle
-        title: Serverless 기반의 마이크로 서비스 아키텍처 작성 실습
+      - layout: left
+        title: AWS MSA
         link: velog.io/@jm1225/AWS-MSA-pjt
         # link_text: Project Website
-        additional_links:
-          - title:  Jaeminst/project3-microservices
-            icon: fab fa-github
-            url: github.com/Jaeminst/project3-microservices
+        # additional_links:
+        #   - title:  Jaeminst/project3-microservices
+        #     icon: fab fa-github
+        #     url: github.com/Jaeminst/project3-microservices
         quote: >
           Serverless 기반의 마이크로 서비스 아키텍처 작성 실습
         description: | # this will include new lines to allow paragraphs
-          * 세 번째 프로젝트
+          * "자동 재고 확보 시스템" 을 위한 MSA를 구성하는 것을 목표로 하였습니다.
+          * DAY1
+            * Serverless 기반 legacy 시스템 배포 및 테스트 학습
+            * SQS 이용하여 Producer-Consumer 구조 개발 학습
+            * SNS-SQS 환경에서, SNS 발행서버 구현
+            * 마이크로서비스 시나리오 환경구성
+          * DAY2
+            * 성능 테스트
+            * Dead Letter Queue(DLQ) 연습
+            * 다이어그램 작성
+            * Sales API 배포
+            * Stock Empty 람다 배포
+          * DAY3
+            * 공장 api REST API 문서 배포를 자동화 하기
+            * 공장서버의 콜백 메시지를 받아 재고를 추가하는 람다를 구현하기
 
-      - layout: top-middle
-        title: 화물 용달 예약/조회 서비스
+      - layout: left
+        title: 화물 용달 예약/조회 앱
         link: velog.io/@jm1225/테라폼으로-만드는-EC2에-환경변수-안전하게-전달하기
         # link_text: 테라폼으로 만드는 EC2에 환경변수 안전하게 전달하기
         additional_links:
@@ -112,7 +133,15 @@ content:
         quote: >
           소비자가 예약을 하고 조회할 수 있도록 기본적인 3tier Architechure로 dev환경을 구성함.
         description: | # this will include new lines to allow paragraphs
-          * 파이널 프로젝트
+          * 파이널 프로젝트(5/17~6/7, 3주)
+          * 소비자가 상차지/하차지 등의 운송 정보를 입력하고 요금을 확인 후, 플랫폼을 통해 요청이 드라이버에게 전달 되는 서비스
+          * 예약 API 서버는 AutoScaling & ELB를 적용하여 가용성과 확장성 보장
+          * 예약 서버와 알림 서버는 느슨한 결합을 적용하여 장애 확산 방지
+          * 데이터 보안을 위한 서브넷팅 필수
+          * 빠른 조회가 가능하도록 ElastiCache(Redis) 적용
+          * 데이터베이스의 내구성을 위한 다중 AZ 적용
+          * 분석을 위해 Elastic Search를 통한 예약정보 logging
+          * Terraform으로 구성한 인프라를 코드로 구현
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -134,14 +163,18 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          * NodeJS
+          * Javascript, NodeJS
       - layout: left
         title: DevOps
         description: | # this will include new lines to allow paragraphs
-          * Terraform
+          * AWS, Terraform, Docker
           * MySQL, MongoDB
-          * AWS Pipeline
-          * Linux Ubuntu
+          * Linux, Shell Script
+      - layout: left
+        title: Etc
+        description: | # this will include new lines to allow paragraphs
+          * MS Excel
+          * Lisp, ahk
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
