@@ -127,7 +127,7 @@ content:
           * 아키텍처 기준으로 CI/CD를 구현하고 DNS로 Frontend와 Backend를 서비스하는 프로젝트
           * 프로젝트 초반에 팀원의 Laptop으로 협업 후 주말에 백엔드 API 서버 코딩을 진행
           * 진행 하면서, ssm 관련 문제를 만났는데 프로젝트 기간에 해결할 수 없었습니다.
-          * 그러나, 프로젝트 기간이 끝난 후 ssm trouble-shooting을 추가 포스팅 하였습니다.
+          * 그러나, 프로젝트 기간이 끝난 후 [ssm trouble-shooting](https://velog.io/@jm1225/AWS-ssm-parameter-trouble-shooting)을 추가 포스팅 하였습니다.
 
       - layout: left
         title: AWS MSA
