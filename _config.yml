@@ -52,15 +52,31 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   DevOps 엔지니어로 제 2의 인생에 도전하는 '이재민' 입니다.
 
-  기계공학 전문학사를 졸업 후, 수배전반과 Busduct/Busway 구조설계와 수배전반 고저압 전기설계를 하였습니다.
-
-  회사업무를 AutoCAD로 하면서 Lisp을 자연스럽게 접하게 되었고 많은 부분을 자동화 하였습니다.
-
-  취미로 프로그램을 만들면서 MySQL을 활용한 로그인서버를 연동하여 판매를 계획했던 경험도 있습니다.
-
-  그러면서, DevOps에 관심을 가지게 되어 DevOps 엔지니어로 발전하는 제 2의 인생을 꿈꾸고 있습니다.
+  유연한 사고를 바탕으로 다양한 상황에 대처해야 하는 DevOps 의 포지션에서 새로운 것을 즐기고, 많은 사람들과의 커뮤니케이션을 즐기는 저의 강점으로 전분야의 개발자들을 화합하는 아름다운 개발문화를 만들고 싶습니다.
 
 content:
+
+  - title: People say about me # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 코드스테이츠 부트캠프
+        sub_title: DevOps 1기 페어/팀 리뷰
+        caption: 2022.02 ~ 2022.06
+        description: | # this will include new lines to allow paragraphs
+          스텝 바이 스텝으로 속도 맞춰서 진행 하는 방식이나 조곤조곤한 설명이 좋습니다.
+
+          평소에 본인이 하고 계신 것과 알고 있는 것을 잘 공유해주시고 커뮤니케이션도 원할합니다.
+
+          모르는 것을 질문하면 적극적으로 알려줍니다.
+
+          든든하고, 같이 과제를 진행하는 입장에서 제가 이해가 안되는 부분은 설명을 잘해줍니다.
+
+          생각하시는 흐름을 따라가는건 재미있고, 깊이에 감탄하며 같이하다가 보면 같이 성장하는 느낌을 줍니다.
+
+          페어 뿐만 아니라 주변 동료까지 잘 챙기셨고, 주어진 것만 하고 끝내는 것이 아니라 다른 것도 이것저것 시도해보며 스스로 학습하시는 점이 좋습니다.
+          
+          편안한 분위기에서 과제를 진행할 수 있게 해주었고, 자기 에러가 아닌데도 같이 고민하고 애써 주었습니다.
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -80,15 +96,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Backend
-        description: | # this will include new lines to allow paragraphs
-          * Javascript, NodeJS
-      - layout: left
         title: DevOps
         description: | # this will include new lines to allow paragraphs
-          * AWS, Terraform, Docker
-          * MySQL, MongoDB
-          * Linux, Shell Script
+          * AWS 클라우드 서비스를 이용한 인프라 구성 가능
+          * Terraform을 통한 IaC 구현 가능
+          * Shell Script로 자동화 구현 가능
+          * Docker를 통한 애플리케이션을 컨테이너화 가능
+          * k8s를 통한 컨테이너 오케스트레이션 가능
+          * K6를 통한 서비스 성능 테스트 가능
+          * Prometheus, Grafana를 통한 모니터링 구축 가능
+          * MySQL, MongoDB를 활용한 WAS 구축 가능
+          * Linux, Windows 운영 가능
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          * Javascript, NodeJS를 이용한 3tier WAS 구축 가능
+          * JS-sdk를 이용한 추가기능 구현 가능
       - layout: left
         title: Etc
         description: | # this will include new lines to allow paragraphs
