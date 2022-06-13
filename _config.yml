@@ -52,13 +52,13 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   DevOps 엔지니어로 제 2의 인생에 도전하는 '이재민' 입니다.
 
-  기계공학 전문학사를 졸업 후, 수배전반과 Busduct/Busway 구조설계와 수배전반 고저압 전기설계를 했었습니다.
+  기계공학 전문학사를 졸업 후, 수배전반과 Busduct/Busway 구조설계와 수배전반 고저압 전기설계를 하였습니다.
 
   회사업무를 AutoCAD로 하면서 Lisp을 자연스럽게 접하게 되었고 많은 부분을 자동화 하였습니다.
 
   취미로 프로그램을 만들면서 MySQL을 활용한 로그인서버를 연동하여 판매를 계획했던 경험도 있습니다.
 
-  그러면서, 제가 좋아하는 일을 하면서 지속적으로 발전하는 제 2의 인생을 꿈꾸고 있습니다.
+  그러면서, DevOps에 관심을 가지게 되어 DevOps 엔지니어로 발전하는 제 2의 인생을 꿈꾸고 있습니다.
 
 content:
 
@@ -138,17 +138,17 @@ content:
         #     icon: fab fa-github
         #     url: github.com/Jaeminst/project3-microservices
         quote: >
-          Serverless 기반의 마이크로 서비스 아키텍처 작성 실습
+          Serverless 기반의 마이크로 서비스 아키텍처 완성 및 실제 구현
         description: | # this will include new lines to allow paragraphs
           * "자동 재고 확보 시스템" 을 위한 MSA를 구성하는 것을 목표로 하였습니다.
           * DAY1
-            * Serverless 기반 legacy 시스템 배포 및 테스트 학습
-            * SQS 이용하여 Producer-Consumer 구조 개발 학습
+            * Serverless 기반 legacy 시스템 배포 및 테스트 구현
+            * SQS 이용하여 Producer-Consumer 구조 개발 구현
             * SNS-SQS 환경에서, SNS 발행서버 구현
             * 마이크로서비스 시나리오 환경구성
           * DAY2
             * 성능 테스트
-            * Dead Letter Queue(DLQ) 연습
+            * Dead Letter Queue(DLQ) 구현
             * 다이어그램 작성
             * Sales API 배포
             * Stock Empty 람다 배포
