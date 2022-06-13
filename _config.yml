@@ -110,8 +110,8 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          * Javascript, NodeJS를 이용한 3tier WAS 구축 가능
-          * JS-sdk를 이용한 추가기능 구현 가능
+          * Javascript, NodeJS 이용한 3tier WAS 구축 가능
+          * SDK 이용한 기능구현 가능
       - layout: left
         title: Etc
         description: | # this will include new lines to allow paragraphs
@@ -184,9 +184,9 @@ content:
         link: velog.io/@jm1225/테라폼으로-만드는-EC2에-환경변수-안전하게-전달하기
         # link_text: 테라폼으로 만드는 EC2에 환경변수 안전하게 전달하기
         additional_links:
-          - title:  Jaeminst/devops-01-Final-TeamG-scenario1
+          - title:  Jaeminst/devops-01-Final-TeamG
             icon: fab fa-github
-            url: github.com/Jaeminst/devops-01-Final-TeamG-scenario1
+            url: github.com/Jaeminst/devops-01-Final-TeamG
         quote: >
           소비자가 예약을 하고 조회할 수 있도록 기본적인 3tier Architechure로 dev환경을 구성함.
         description: | # this will include new lines to allow paragraphs
