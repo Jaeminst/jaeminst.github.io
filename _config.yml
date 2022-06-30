@@ -9,7 +9,7 @@ version: 2
 name: 이재민
 title: Junior DevOps Engineer
 email: jm1225@kakao.com
-phone: 010-9900-1225
+phone: 010-5968-1225
 website: velog.io/@jm1225
 website_title: Blog
 
@@ -43,16 +43,20 @@ linkedin_username: jaeminst
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+gtag: "G-T8DKPKKXEG"
+google_analytics: "G-T8DKPKKXEG"
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/이재민30x40.png
 about_content: | # this will include new lines to allow paragraphs
-  DevOps 엔지니어로 제 2의 인생에 도전하는 '이재민' 입니다.
+  제 2의 인생으로 DevOps 엔지니어에 도전하는 ‘이재민’ 입니다.
 
-  유연한 사고를 바탕으로 다양한 상황에 대처해야 하는 DevOps 의 포지션에서 새로운 것을 즐기고, 많은 사람들과의 커뮤니케이션을 즐기는 저의 강점으로 전분야의 개발자들을 화합하는 아름다운 개발문화를 만들고 싶습니다.
+  DevOps 엔지니어의 직무와 업무 자동화에 관심이 많은 저는 100% 적성이 일치한다고 생각합니다.
+  
+  도면을 AutoCAD로 설계하면서 작업시간을 단축하고자 Lisp을 독학하였고, 취미로 프로그램을 제작하면서 MySQL을 활용한 php언어 기반의 로그인 서버를 연동했던 경험도 있습니다.
+  
+  유연한 사고를 바탕으로 다양한 문제에 대처해야 하는 DevOps 엔지니어로서 동료분들과 지식을 공유하고 커뮤니케이션을 좋아하는 저의 강점으로 아름다운 개발문화를 만들고 싶습니다.
 
 content:
 
@@ -64,19 +68,13 @@ content:
         sub_title: DevOps 1기 페어/팀 리뷰
         caption: 2022.02 ~ 2022.06
         description: | # this will include new lines to allow paragraphs
-          스텝 바이 스텝으로 속도 맞춰서 진행 하는 방식이나 조곤조곤한 설명이 좋습니다.
-
-          평소에 본인이 하고 계신 것과 알고 있는 것을 잘 공유해주시고 커뮤니케이션도 원할합니다.
-
-          모르는 것을 질문하면 적극적으로 알려줍니다.
-
-          든든하고, 같이 과제를 진행하는 입장에서 제가 이해가 안되는 부분은 설명을 잘해줍니다.
-
-          생각하시는 흐름을 따라가는건 재미있고, 깊이에 감탄하며 같이하다가 보면 같이 성장하는 느낌을 줍니다.
-
-          페어 뿐만 아니라 주변 동료까지 잘 챙기셨고, 주어진 것만 하고 끝내는 것이 아니라 다른 것도 이것저것 시도해보며 스스로 학습하시는 점이 좋습니다.
-          
-          편안한 분위기에서 과제를 진행할 수 있게 해주었고, 자기 에러가 아닌데도 같이 고민하고 애써 주었습니다.
+          * 스텝 바이 스텝으로 속도 맞춰서 진행하는 방식이나 조곤조곤한 설명이 좋습니다.
+          * 평소에 본인이 하고 계신 것과 알고 있는 것을 잘 공유해주시고 커뮤니케이션도 원활합니다.
+          * 모르는 것을 질문하면 적극적으로 알려줍니다.
+          * 든든하고, 같이 과제를 진행하는 입장에서 제가 이해가 안 되는 부분은 설명을 잘해줍니다.
+          * 생각하시는 흐름을 따라가는 건 재미있고, 깊이에 감탄하며 같이하다가 보면 같이 성장하는 느낌을 줍니다.
+          * 페어뿐만 아니라 주변 동료까지 잘 챙기셨고, 주어진 것만 하고 끝내는 것이 아니라 다른 것도 이것저것 시도해보며 스스로 학습하시는 점이 좋습니다.
+          * 편안한 분위기에서 과제를 진행할 수 있게 해주었고, 자기 에러가 아닌데도 같이 고민하고 애써 주었습니다.
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -113,6 +111,10 @@ content:
           * Javascript, NodeJS 이용한 3tier WAS 구축 가능
           * SDK 이용한 기능구현 가능
       - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+          * React 이용한 3tier WAS 구축 가능
+      - layout: left
         title: Etc
         description: | # this will include new lines to allow paragraphs
           * MS Excel
@@ -121,36 +123,39 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+ 
       - layout: left
-        title: ONE SIZE 쇼핑몰
-        link: velog.io/@jm1225/G-Team-Project
-        # link_text: Project Website
-        additional_links:
-          - title:  Jaeminst/devops-01-P1-TeamG
-            icon: fab fa-github
-            url: github.com/Jaeminst/devops-01-P1-TeamG
+        title: ShoppingMall 제작
+        sub_title: Frontend React App
+        link: github.com/Jaeminst/react-shoppingmall
         quote: >
-          HTTP 프로토콜을 이해하고 API 설계 방법 학습하여 웹 서비스 작성
+          리액트를 이용한 쇼핑몰 제작 프로젝트.
         description: | # this will include new lines to allow paragraphs
-          * 프로젝트를 시작하며 우리가 어떤 서비스를 하고싶은지와 어떻게 백엔드를 구축할지를 논의
-          * 화이트보드에 ERD를 작성한다음 DB의 구조를 정하고, fastify를 이용해 서버앱 코딩
-          * 코드를 하나씩 써내려가면서 동작 원리가 궁금하여 어디서부터 가져오고 보내주고 코드들의 구조를 파악
+          * Route, Component, css-in-js, Sass 라이브러리 사용
+          * 웹 브라우저 크기에 따라 반응형 레이아웃 구현
+          * ajax를 이용한 데이터 바인딩 구현
 
       - layout: left
-        title: AWS ECS CI/CD
-        link: velog.io/@jm1225/AWS-ECS-CICD-pjt
-        # link_text: Project Website
+        title: 화물 용달 예약/조회 앱
+        sub_title: devops-01-Final-TeamG
+        link: velog.io/@jm1225/테라폼으로-만드는-EC2에-환경변수-안전하게-전달하기
+        # link_text: 테라폼으로 만드는 EC2에 환경변수 안전하게 전달하기
         additional_links:
-          - title:  Jaeminst/devops-01-P2-TeamH
+          - title:  Jaeminst/devops-01-Final-TeamG
             icon: fab fa-github
-            url: github.com/Jaeminst/devops-01-P2-TeamH
+            url: github.com/Jaeminst/devops-01-Final-TeamG
         quote: >
-          AWS ECS, Docker 기반으로 클라우드에 애플리케이션 배포 실습
+          소비자가 예약을 하고 조회할 수 있도록 기본적인 3tier Architechure로 dev환경을 구성함.
         description: | # this will include new lines to allow paragraphs
-          * 아키텍처 기준으로 CI/CD를 구현하고 DNS로 Frontend와 Backend를 서비스하는 프로젝트
-          * 프로젝트 초반에 팀원의 Laptop으로 협업 후 주말에 백엔드 API 서버 코딩을 진행
-          * 진행 하면서, ssm 관련 문제를 만났는데 프로젝트 기간에 해결할 수 없었습니다.
-          * 그러나, 프로젝트 기간이 끝난 후 [ssm trouble-shooting](https://velog.io/@jm1225/AWS-ssm-parameter-trouble-shooting)을 추가 포스팅 하였습니다.
+          * 파이널 프로젝트(5/17~6/7, 3주)
+          * 소비자가 상차지/하차지 등의 운송 정보를 입력하고 요금을 확인 후, 플랫폼을 통해 요청이 드라이버에게 전달되는 서비스
+          * 예약 API 서버는 AutoScaling & ELB를 적용하여 가용성과 확장성 보장
+          * 예약 서버와 알림 서버는 느슨한 결합을 적용하여 장애 확산 방지
+          * 데이터 보안을 위한 서브넷팅 구현
+          * 빠른 조회가 가능하도록 ElastiCache(Redis) 적용
+          * 데이터베이스의 내구성을 위한 다중 AZ 적용
+          * 분석을 위해 ElasticSearch를 통한 예약정보 logging
+          * Terraform으로 구성한 인프라를 코드로 구현
 
       - layout: left
         title: AWS MSA
@@ -176,29 +181,41 @@ content:
             * Sales API 배포
             * Stock Empty 람다 배포
           * DAY3
-            * 공장 api REST API 문서 배포를 자동화 하기
-            * 공장서버의 콜백 메시지를 받아 재고를 추가하는 람다를 구현하기
+            * 공장 REST API 문서 배포를 자동화하기
+            * 공장 서버의 콜백 메시지를 받아 재고를 추가하는 람다를 구현하기
 
       - layout: left
-        title: 화물 용달 예약/조회 앱
-        link: velog.io/@jm1225/테라폼으로-만드는-EC2에-환경변수-안전하게-전달하기
-        # link_text: 테라폼으로 만드는 EC2에 환경변수 안전하게 전달하기
+        title: AWS ECS CI/CD
+        sub_title: devops-01-P2-TeamH
+        link: velog.io/@jm1225/AWS-ECS-CICD-pjt
+        # link_text: Project Website
         additional_links:
-          - title:  Jaeminst/devops-01-Final-TeamG
+          - title:  Jaeminst/devops-01-P2-TeamH
             icon: fab fa-github
-            url: github.com/Jaeminst/devops-01-Final-TeamG
+            url: github.com/Jaeminst/devops-01-P2-TeamH
         quote: >
-          소비자가 예약을 하고 조회할 수 있도록 기본적인 3tier Architechure로 dev환경을 구성함.
+          AWS ECS, Docker 기반으로 클라우드에 애플리케이션 배포 실습
         description: | # this will include new lines to allow paragraphs
-          * 파이널 프로젝트(5/17~6/7, 3주)
-          * 소비자가 상차지/하차지 등의 운송 정보를 입력하고 요금을 확인 후, 플랫폼을 통해 요청이 드라이버에게 전달 되는 서비스
-          * 예약 API 서버는 AutoScaling & ELB를 적용하여 가용성과 확장성 보장
-          * 예약 서버와 알림 서버는 느슨한 결합을 적용하여 장애 확산 방지
-          * 데이터 보안을 위한 서브넷팅 필수
-          * 빠른 조회가 가능하도록 ElastiCache(Redis) 적용
-          * 데이터베이스의 내구성을 위한 다중 AZ 적용
-          * 분석을 위해 Elastic Search를 통한 예약정보 logging
-          * Terraform으로 구성한 인프라를 코드로 구현
+          * 아키텍처 기준으로 CI/CD를 구현하고 DNS로 Frontend와 Backend를 서비스하는 프로젝트
+          * 프로젝트 초반에 팀원의 Laptop으로 협업 후 주말에 백엔드 API 서버 코딩을 진행
+          * 진행하면서, ssm 관련 문제를 만났는데 프로젝트 기간에 해결할 수 없었습니다.
+          * 프로젝트 기간이후 해결 하였으며, [ssm trouble-shooting](https://velog.io/@jm1225/AWS-ssm-parameter-trouble-shooting)을 추가 포스팅하였습니다.
+
+      - layout: left
+        title: ONE SIZE 쇼핑몰
+        sub_title: devops-01-P1-TeamG
+        link: velog.io/@jm1225/G-Team-Project
+        # link_text: Project Website
+        additional_links:
+          - title: Jaeminst/devops-01-P1-TeamG
+            icon: fab fa-github
+            url: github.com/Jaeminst/devops-01-P1-TeamG
+        quote: >
+          HTTP 프로토콜을 이해하고 API 설계 방법 학습하여 웹 서비스 작성
+        description: | # this will include new lines to allow paragraphs
+          * 프로젝트를 시작하며 우리가 어떤 서비스를 하고 싶은지와 어떻게 백엔드를 구축할지를 논의
+          * 화이트보드에 ERD를 작성한 다음 DB의 구조를 정하고, Fastify를 이용해 서버 앱 코딩
+          * 코드를 하나씩 써 내려가면서 동작 원리가 궁금하여 어디서부터 가져오고 보내주고 코드들의 구조를 파악
 
   - title: Opensource # Title for the section
     layout: list # Type of content section (list/text)
@@ -210,8 +227,8 @@ content:
         quote: >
           개인 기술 블로그
         description: | # this will include new lines to allow paragraphs
-          * 트러블슈팅, 습득기술 정리, 회고록 등을 공유하기 위한 블로그
-          * 부트캠프 시작과 함께 블로그를 개설하여 꾸준히 블로깅
+          * 트러블슈팅, 습득 기술 정리, 회고록 등을 공유하기 위한 블로그
+          * 부트캠프 시작과 함께 블로그를 개설하여 꾸준히 포스팅 하고있습니다.
 
       - layout: left
         title: AWS-Configure-Register-Script
@@ -221,7 +238,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * AWS 관련 CDK를 사용할 때, 자격증명을 편하게 해줍니다.
           * 간편하게 프로필과 리전을 설정할 수 있습니다.
-          * 프로필 생성과 여러가지 기능을 추가할 예정입니다.
+          * 프로필 생성과 여러 가지 기능을 추가할 예정입니다.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -235,24 +252,19 @@ content:
 
         description: | # this will include new lines to allow paragraphs
           * [[수강생 인터뷰] 비전공자에서 개발자로 커리어 전환을 꿈꾸는 이재민님 인터뷰](https://velog.io/@jm1225/수강생-인터뷰-비전공자에서-개발자로-커리어-전환을-꿈꾸는-이재민님-인터뷰)
-          * DevOps에 대한 명확한 정의를 이해
-          * NodeJS 및 개발 환경 구축
-          * 리눅스 운영체제
-          * 웹서비스 개발 기초지식
-          * Git과 버전관리 시스템
-          * Web Apllication Server
-          * 네트워크 기초
-          * Amazon Web Service
-          * Docker
-          * YAML
-          * 지속적 통합
-          * 배포 자동화
-          * 마이크로서비스
-          * 마이크로서비스 작성
-          * Infra as Code
-          * 컨테이너 오케스트레이션
-          * 서비스 모니터링
-          * 성능 테스트
+          * DevOps 이론, 리눅스 시스템 이론과 CLI, HTTP 이론, RestAPI
+          * Git/Github, Cookie & Header 와 프록시 서버
+          * Nginx 정적 웹, NodeJS 서버 앱, MongoDB 연결
+          * 네트워크 이론, CI/CD 이론, 컨테이너 이론
+          * 지속적 통합과 Github Action
+          * Docker, yaml & json 변환과 데이터 구조
+          * AWS IAM, S3, EC2, RDS, ECS, CodePipeline, CloudFront, Route 53
+          * 마이크로서비스 이론, 도메인 주도 설계, 서버리스, CQRS
+          * AWS Lambda, API Gateway, AWS CDK SAM
+          * Infra as Code 이론, Terraform, 컨테이너 오케스트레이션 이론
+          * 쿠버네티스 이론, k8s, helm 패키지
+          * AWS SNS, SQS, CloudWatch
+          * 서비스 모니터링과 성능 테스트, Grafana, Prometheus
 
       - layout: left
         title: 울산과학대학
@@ -263,6 +275,14 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 2011.06 ~ 2011.12 / 성진지오텍 기술교육원 수료, 담수 플랜트 설계
           * 2011.09 ~ 2011.12 / 울산천사들의합창 운영진, 자원봉사 및 기부
+
+  - title: Certification # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: AWS
+        description: | # this will include new lines to allow paragraphs
+          * AWS Certified Cloud Practitioner (CLF-C01) - 2022.06.24
 
   - title: A Little More About Me
     layout: text
