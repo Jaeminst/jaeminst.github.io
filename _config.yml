@@ -113,6 +113,16 @@ content:
           * ajax를 이용한 데이터 바인딩 구현
 
       - layout: left
+        title: Frontend, firebase
+        link: github.com/Jaeminst/firebase-web
+        quote: >
+          firebase를 활용한 backendless 프론트엔드 웹
+        description: | # this will include new lines to allow paragraphs
+          * Bootstrap을 활용한 기본적인 웹 디자인
+          * firebase를 이용한 Auth, DB, Storage 활용
+          * 회원가입, 로그인, 인증 세션 구현
+
+      - layout: left
         title: 화물 용달 예약/조회 앱
         sub_title: devops-01-Final-TeamG
         link: velog.io/@jm1225/테라폼으로-만드는-EC2에-환경변수-안전하게-전달하기
